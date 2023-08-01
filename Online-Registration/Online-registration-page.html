@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css">
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+  <section class="A">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <!-- <img
+              src="images/von-logo (1).png"
+              alt="companylogo"
+              class="logo-web"
+            /> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav  mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class=" nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link" href="../Event/Event-page.html"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="../Call-for-abstracts/Call-for-abstract-page.html">Call for Abstracts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#offcanvasExample" 
+                aria-controls="offcanvasExample"  data-bs-toggle="offcanvas">Contact us</a>
+              </li>
+            </ul>
+            <a class="contact-us-btn" href="../Online-Registration/Online-registration-page.html"
+              ><button type="button" class="talk btn-primary">
+                Online Registration
+              </button></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main content in first section-->
+  </section>
+    <section class="contact-page ">
+      <div class="img-box3">
+        <img src="../images/aaua-logo-copy-2.png"  alt="aaua-logo" class="logo-1-aaua">
+       
+      </div> 
+      <div class="img-box5">
+        <img src="../images/von-logo-copy-2-spons.png" alt="humb-logo" class="logo-2-aaua">
+       
+      </div>
+       <div class="container-fluid">
+        <div class="row page">
+            <!-- <div class="visi1 col-md-4 col-sm-12 order-sm-2 order-xs-2 order-md-1 rec2 align-self-center  ">
+                <div class="rec1  text-center">   
+                 <img src="../images/Group 31 (1).png" alt="" class="contact-img img-fluid">
+                
+                </div>                 
+            </div> -->
+            <div class="col-md-8 col-sm-12 order-sm-1 order-xs-1 order-md-2">
+              <div class="why-redella mb-4">
+                <span class="line2"></span>
+                <h5 class="spec">Online Registration Form</h5>
+                <span class="line2"></span> 
+              </div> 
+              <div class="notice mb-4">
+                <b>NOTE: Registration, Accommodation and Feeding is FREE for Registered and Accredited participants</b>
+              </div>
+              <!-- <div class="free-consultation mb-3">Contact us now for a free consultation</div> -->
+              <div class="controller">
+                <form action="" method="post" name="google-sheet">
+                  <div class="row gx-3 gy-4">
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="firstname">First Name</label>
+                      <input type="text" name="Firstname" class="form-control" placeholder="Enter your firstname" id="Firstname" required>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                      <label for="surname">Surname</label>
+                      <input type="text" name="Surname" class="form-control" placeholder="Enter your surname"  id="surname" required>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                      <label for="email">Email</label>
+                      <input type="text" name="Email" class="form-control" placeholder="Enter your email"  id="email">
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="institution">Name of institution?</label>
+                      <input type="text" name="Name_of_institution" class="form-control" placeholder="Enter the name of your institution" id="institution">
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="Title">Title of paper?</label>
+                      <input type="text" name="Title_of_paper" class="form-control" placeholder="Enter the title of your paper" id="Title">
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="Team">Which sub-theme does the topic belong?</label>
+                      <!-- <input type="text" class="form-control" placeholder="Enter your fullname" id="Fullname"> -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sub_theme" id="Theme" value="Subtheme-1">
+                        <label class="form-check-label" for="Theme">
+                          Subtheme-1
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sub_theme" id="Theme" value="Subtheme-2">
+                        <label class="form-check-label" for="Theme">
+                          Subtheme-2
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sub_theme" id="Theme" value="Subtheme-3">
+                        <label class="form-check-label" for="Theme">
+                          Subtheme-3
+                        </label>
+                      </div>
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="Presenting-author">Who is the presenting author</label>
+                      <input type="text" name="Presenting_author" class="form-control" placeholder="Name of presenting author?" id="Presenting-author">
+                    </div>
+                    
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="poster-or-oral">Is it poster or oral?</label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Poster_or_oral_choice" id="poster-or-oral" value="poster">
+                        <label class="form-check-label" for="poster-or-oral">
+                         poster
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Poster_or_oral_choice" id="poster-or-oral" value="oral">
+                        <label class="form-check-label" for="poster-or-oral">
+                         oral
+                        </label>
+                      </div>
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="date-full-paper">Date for full paper</label>
+                      <input type="text" name="Date_of_full_paper" class="form-control" placeholder="" id="date-full-paper">
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="accomodation">Do you need accomodation? (Whoever is presenting)</label>
+                      <!-- <input type="text" class="form-control" placeholder="Enter your fullname" id="Fullname"> -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Accommodation" id="accomodation" value="Yes">
+                        <label class="form-check-label" for="Theme">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Accommodation" id="accomodation" value="No">
+                        <label class="form-check-label" for="Theme">
+                          No
+                        </label>
+                      </div>
+                     
+
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="Arrival">When will you arrive?</label>
+                      <input type="date" class="form-control" placeholder="" name="Arrival_date" id="Arrival">
+                    </div>
+                    <div class=" col-md-6 col-sm-12  col-xs-12">
+                      <label for="Departure">When will you depart?</label>
+                      <input type="date" class="form-control" placeholder=""  name="Departure_date" id="Departure">
+                    </div>
+                    
+                    <!-- <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                      <label for="State">State</label><br>
+                      <select id="inputState" class="custom-select" >
+                        <option value="" disabled selected>Select a state</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ" class="highlight">Arizona</option>
+                      </select>
+                    </div> -->
+                    <div class="form-group">
+                      <label for="Abstract">Upload your abstract of not more than <b>250 words</b></label>
+                      <textarea name="Abstract" class="form-control" id="Abstract" rows="4"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" name="submit" class="btn1 btn-primary">Submit 
+                    <img src="../images/arrow-narrow-up-right.png" alt="up-right" class="up-right-png">
+                  </button>
+                </form>
+              </div>
+            </div>
+        </div>
+       </div>
+      </section>
+      <section class="absolute-canvas">
+       
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">For general information and enquiries about the AAUA HUMBOLDT-KOLLEG, 2023, please contact:  </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+           
+               <p><span class="green-icon"><img src="../images/phone-call.png" width="20px" height="18px" alt="green-icon" class=""></span>Prof. Dr. N.A. Oladoja  LOC Chairman +2348035438642</p>
+                <p><span class="green-icon"><img src="../images/gmail.png" width="20px" height="18px" alt="green-icon" class=""></span>nurudeen.oladoja@aaua.edu.ng</p>
+              </div>
+              <div>
+           
+                <p><span class="green-icon"><img src="../images/phone-call.png
+                 " width="20px" height="18px" alt="green-icon" class=""></span>Prof. Dr. T.O. Adejumo (Convener) +2348036296127, 08053546526</p>
+                 <p><span class="green-icon"><img src="../images/gmail.png" width="20px" height="18px" alt="green-icon" class=""></span>timothy.adejumo@aaua.edu.ng, tadejum@gwdg.de</p>
+               </div>
+            
+          </div>
+        </div>
+      </section>
+   
+      <footer>
+        <div class="container-fluid">
+          <div class="row pt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+              
+                <a  class="explore" href="../index.html">Home</a>
+             
+            </div>
+            <div class="col-md-4 text-center">
+              
+                <a class="explore" href="../Event/Event-page.html">Events</a>
+               
+            </div>
+            <div class=" col-md-4 text-center">
+           
+                <a class="explore" href="../Call-for-abstracts/Call-for-abstract-page.html">Call for Abstracts</a>
+            
+            </div>
+            
+            </div>
+            <div class="col-md-12 text-center mt-1">
+              <div class="copyright py-3">
+                &copy;2023 AAUA-Humboldt-Kolleg
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyNjQ-CEvgzAfGa5SXvQ23y_SBryO3_OGIB6nGFgw3huUD7p8wvL8zWWPG2J6hjdDHL/exec"
+      const form = document.forms['google-sheet']
+
+
+form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Registration successful!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+
+      
+  
+   
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
